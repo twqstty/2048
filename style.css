@@ -85,13 +85,12 @@ button:hover {
 
 .game-over {
     position: absolute;
-    top: 50%;
+    top: 46%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 430px;
-    height: 430px;
-    padding: 30px;
-    background-color: rgba(238, 228, 218, 0.95);
+    width: 436px;
+    height: 436px;
+    background-color: rgba(238, 228, 218, 1);
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -106,8 +105,7 @@ button:hover {
 }
 
 .game-over img {
-    padding: 40px;
-    width: 200px;
+    width: 300px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
